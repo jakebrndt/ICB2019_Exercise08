@@ -25,7 +25,7 @@ guessnumber <- function(x){
     return("higher")
   } else if (x > n) {
         return("lower")
-  } else (x = n) {
+  } else (x == n) {
       return("correct!")
     }
 }
