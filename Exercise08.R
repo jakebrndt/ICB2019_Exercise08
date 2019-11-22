@@ -21,8 +21,11 @@ UWMSUcum <- data.frame(UWcum, MSUcum)
 #guess my number
 guessnumber <- function(x){
   n=sample(1:100)
-  if (x<n
-  return(higher))
-  else (x>n 
-        return(lower))
+  if (x < n) {
+    return(higher)
+  } else if (x > n) {
+        return(lower)
+  } else (x = n) {
+      return(correct!)
+    }
 }
