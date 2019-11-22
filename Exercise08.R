@@ -16,3 +16,13 @@ UWcum[nrow(UWcum)+1,] <- 0
 UWcum[nrow(UWcum)+1,] <- 0
 # to combine UWcum and MSUcum into one data frame containing both cumulative scores
 UWMSUcum <- data.frame(UWcum, MSUcum)
+
+
+#guess my number
+guessnumber <- function(x){
+  n=sample(1:100)
+  if (x<n
+  return(higher))
+  else (x>n 
+        return(lower))
+}
